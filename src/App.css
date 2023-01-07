@@ -1,0 +1,135 @@
+.abul{
+  position: fixed;
+  z-index: -1;
+  padding:0
+}
+*{
+  padding:0px ;
+  margin:0px;
+  overflow: hidden;
+}
+
+.textani{
+  color:white;
+  font-size: 3.5rem;
+  width: 40%;
+}
+.makeme{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 100px auto;
+
+}
+
+.haedbak{
+  background-color:rgba(189, 189, 189, 0);
+  color:rgb(255, 255, 255);
+ 
+}
+.resume a {
+ text-decoration:none;
+ color:inherit;
+}
+.link{
+  text-decoration:none;
+  color:inherit;
+}
+
+.haedbak Button{
+  font-size:1.31rem;
+  margin-left: 4px;
+  font-weight: 600;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.haedbak Button:hover{
+  color:black;
+  background-color: antiquewhite;
+}
+
+
+/* customizing the projects section here  */
+
+.projectone{
+  display:flex;
+  flex-direction:column;
+}
+.projectimg{
+  height: 300px;
+  width: 100%;
+}
+
+.projectimg img{
+  max-width: 100%;
+  max-height:50%;
+ 
+}
+
+.buttonlive a {
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.form{
+  color:white;
+  font-size:2.3rem;
+  margin: 100px auto;
+  text-align: center;
+
+}
+.form input{
+  width:50%;
+  height: 40px;
+  border: none;
+  border: 2px solid rgb(75, 119, 117);
+  border-radius: 10px;
+  margin: 20px auto;
+  display:block;
+}
+.submit{
+  width:30%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin: 4px auto;
+  display: block;
+}
+.submit:hover{
+  background-color:forestgreen;
+
+}
+
+.thanks{
+  font-size: 2rem;
+  color: white;
+  margin:100px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* responsiveness  */
+
+@media only screen and (max-width: 700px) {
+  .makeme{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 10px auto;
+  
+  }
+  .imageani{
+    width: 100%;
+    padding:0;
+    margin: 0;
+  }
+  .haedbak Button{
+    font-size: .91rem;
+  }
+  
+}
