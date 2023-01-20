@@ -11,7 +11,7 @@ const Proimg = () => {
     return (
         <animated.div className='imageani'  style={{
            
-            background: '#E6D9D959',
+            background: '#2EE0878F',
             borderRadius: 18,
             overflow:'none',
             ...springs,

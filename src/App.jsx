@@ -11,6 +11,7 @@ import Blog from './pages/Blog'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Thanks from './pages/Thanks'
+import Mylife from './pages/Mylife'
 
 
 function App() {
@@ -37,8 +38,12 @@ function App() {
   <Route  path='/thanks' element={<Thanks></Thanks>}>
 
   </Route>
+  <Route  path='/aboutme' element={<Mylife></Mylife>}>
+
+  </Route>
 </Routes>
 </BrowserRouter>
+<h3 className="emailsticky"> mahlilmahee@gmail.com </h3>
       
 
    

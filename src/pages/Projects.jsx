@@ -104,6 +104,29 @@ const Projects = () => {
     </Card>
   </Grid>
   
+  <Grid style={{display:'flex',justifyContent: 'center'}} item xs={12} md={4} lg={4}>
+  <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt="green iguana"
+        height="240"
+        image="https://i.ibb.co/BccS5Pp/portfolioprojectssection.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         Portfolio
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Technology Used here is React, React spring, ts Particle ,React-Router ,Form notifications,  Netlify,  axios,etc.
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" className='buttonlive'><a href="https://mapproject-beignet-e40944.netlify.app/">Live Site</a></Button>
+        <Button size="small" sx={{fontWeight:600,fontFamily:'serif', color:'black'}} disabled> More About it.</Button>
+      </CardActions>
+    </Card>
+  </Grid>
+  
  
 </Grid>
         </div>

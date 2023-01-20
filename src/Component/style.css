@@ -4,6 +4,7 @@ body {
   overflow: visible;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -46,6 +47,23 @@ body {
 }
 .imageani{
   clip-path: polygon(96% 12%, 87% 3%, 50% 7%, 11% 6%, 0% 20%, 10% 53%, 0% 91%, 19% 96%, 55% 92%, 100% 100%, 75% 91%, 100% 100%, 90% 56%, 99% 31%);
+  
+}
+.emailsticky{
+  color: white;
+  position:absolute;
+  top: 20px;
+  font-family:'Times New Roman', Times, serif ;
+  font-weight: 300;
+  opacity: 50%;
+  left: 700px;
+}
+.haedbak a{
+  text-decoration: none;
+  color:white
+}
+.haedbak a:hover{
+  color:black
 }
 
 .trails-text > div {
