@@ -6,11 +6,11 @@ import './style.css'
 
 const TextAnimator = () => {
   const items = ["Hello I am "," Mahlil , a ", "Fullstack Mern ", " Developer"];
-  const config = { mass: 5, tension: 2000, friction: 200 };
+  const config = { mass: 5, tension: 1000, friction: 200 };
   
   const [toggle, set] = useState(true);
   const trail = useTrail(items.length, {
-    config:{duration:'2000'},
+    config:{duration:'1000'},
     opacity: toggle ? 1 : 0,
     x: toggle ? 0 : 20,
     height: toggle ? 80 : 0,
@@ -19,7 +19,7 @@ const TextAnimator = () => {
   const springs = useSpring({
     from: { x: -600 },
     to: { x: 20 },
-    config:{duration: 1500}
+    config:{duration: 1000}
   })
     return (
       <div className="trails-main" onClick={() => set(state => !state)}>

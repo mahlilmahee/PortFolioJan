@@ -1,7 +1,7 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  overflow: visible;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,7 @@ body {
 
 #root {
   width: 100%;
-  height: 100%;
+ 
 }
 
 .trails-main {
@@ -28,6 +28,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 .trails-text {
@@ -42,6 +43,9 @@ body {
   will-change: transform, opacity;
   overflow:hidden;
   font-family: "Helvetica Neue",;
+}
+.imageani{
+  clip-path: polygon(96% 12%, 87% 3%, 50% 7%, 11% 6%, 0% 20%, 10% 53%, 0% 91%, 19% 96%, 55% 92%, 100% 100%, 75% 91%, 100% 100%, 90% 56%, 99% 31%);
 }
 
 .trails-text > div {
